@@ -12,6 +12,6 @@ echo "🧹 Installing Odoo 19 Python Libraries..."
 pip install -r odoo/requirements.txt
 
 # Ensure compatibility for the latest ORM changes
-pip install psycopg2-binary python-ldap==3.4.4
+pip install psycopg2-binary python-ldap==3.4.4 inotify
 
 echo "🚀 Python Environment for Odoo 19 Ready!"
